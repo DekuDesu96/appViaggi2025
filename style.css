@@ -44,8 +44,13 @@ nav a:hover {
     header {
         flex-direction: column;
         text-align: center;
+        background: green;
+        color: white;
     }
     nav ul {
         flex-direction: column;
     }
+    nav a {
+    color: white;
+   }
 }
