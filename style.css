@@ -148,6 +148,11 @@ nav a:hover {
     }
 }
 
+#contact {
+    padding: 10px 10px;
+    text-align: center;
+}
+
 .contact-form {
     max-width: 400px;
     margin: 0 auto;
