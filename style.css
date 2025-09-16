@@ -19,18 +19,27 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
+    
 }
 nav a {
     color: var(--text-color);
     text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block; /* Per compatibilità */
 }
 nav a:hover {
     animation: pulse 0.5s infinite alternate;
+    color: red;
 }
 @keyframes pulse {
-    from { transform: scale(1); }
-    to { transform: scale(1.1); }
+    from { transform: scale(1); box-shadow: 0 0 0 #ffcc00; }
+    to { transform: scale(1.3); box-shadow: 0 0 10px #ffcc00; }
 }
+ /* @keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+} */
 #hero {
     text-align: center;
     padding: 2rem;
