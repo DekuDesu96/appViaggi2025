@@ -108,9 +108,11 @@ nav a:hover {
 }
 
 #testimonials {
+    background-color: #f4e04d;
     padding: 4rem 2rem;
     position: relative;
     overflow: hidden;
+    
 }
 
 .testimonial-bg {
